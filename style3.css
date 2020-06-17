@@ -1,0 +1,51 @@
+/*Selector{
+	Property: value;
+}*/
+
+*{
+	text-align:right;
+}
+
+
+body{
+	background-image:url(backgroundimage.jpg);
+	background-size: cover;
+}
+/*h2>p-if p's parent is h2
+h2+p -if just after
+h2 p all p tags in h2*/
+
+p{
+	color: rgba(255,0,0,0.7);
+	text-align:center;
+	border: 5px solid #8A39B6;
+	cursor: pointer;
+}
+/*!important - breaks the rules of cascading style sheet - first or last thisis what happens*/
+p, a{
+	color: green;
+}
+
+li{
+	list-style: none;
+	color: blue;
+	display: inline-block;
+}
+
+/*last child does the opposite*/
+/*hover means if you hiver your pointer over it will change the style*/
+.webtext:first-child{
+	border: 5px dashed green;
+}
+
+.active{
+	color: red;
+}
+
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+
+#div2{
+	background: rgba(255,0,0,0.2);
+}

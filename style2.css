@@ -1,0 +1,27 @@
+h2{
+	color: blue;
+}
+
+.boxmodel{
+	border: 5px solid red;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px;
+	width: 33px;
+	height: 55px;
+}
+
+p{
+	font-size: 20px;
+}
+
+span{
+	font-size: 2em;
+}
+
+.something{
+	font-size: 3rem;
+}
+
+/*rem relative to the root size
+em relative to the p size*/
